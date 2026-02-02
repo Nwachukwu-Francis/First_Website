@@ -234,6 +234,9 @@ ul li {
   /* justify-content: center; */
   align-items: center;
 }
+.fa-circle-check {
+  border: 3px solid red;
+}
 .startFirstOrder {
   margin: 1rem;
   margin-top: 0;
