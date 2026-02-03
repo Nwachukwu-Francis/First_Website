@@ -1,6 +1,6 @@
 html {
   font-size: 62.5%;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 body {
   margin: 0;
@@ -200,6 +200,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-right: 0;
+  padding-right: 0;
   /* display: flex; */
   /* flex: 1; */
   /* border: 10px solid red; */
@@ -234,6 +236,9 @@ ul li {
   /* justify-content: center; */
   align-items: center;
 }
+/* .fa-circle-check {
+  border: 3px solid red;
+} */
 .startFirstOrder {
   margin: 1rem;
   margin-top: 0;
@@ -456,14 +461,80 @@ h2 {
 #buttonWrapper {
   margin: 1rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 62.5%;
+    /* background: red; */
   }
-/* #flexTextAndImage {
+  #vegetableGarden {
+    order: -1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 0;
+    padding-top: 0;
+    /* display: block; */
+  }
+}
+#vegetableGarden img {
+  width: 100vw;
+  height: 50vh;
+  margin-right: 0;
+  padding-right: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+#freshBasketNav {
+  margin-bottom: 1px;
+}
+#flexTextAndImage {
   display: flex;
-  /* align-items: stretch; same height columns */
-
+  align-items: center;
+  flex-direction: column;
+}
+.browseLocalStoresWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.browseLocalStores {
+  margin: 0.5rem;
+  width: 100%;
+}
+#browsingDelivery {
+  font-size: 1.5rem;
+}
+#everythingYouNeed h2 {
+  font-size: 2.2rem;
+  padding: 1.5rem 1.5rem 0.2rem 1.5rem;
+}
+.browseLocalStores h3,
+#everythingYouNeed #freshFruitH3 {
+  font-size: 1.7rem;
+}
+#everythingYouNeed .browseLocalStores {
+  margin-left: 0;
+  padding-left: 0;
+}
+#everythingYouNeed .browseLocalStores p {
+  font-size: 1.3rem;
+}
+#everythingYouNeed .browseLocalStores ul li {
+  font-size: 1.3rem;
+  margin-left: 0;
+  padding-left: 0;
+}
+#simplifyGrocery h2 {
+  font-size: 2.7rem;
+}
+#simplifyGrocery p {
+  font-size: 1.3rem;
+}
+#freshBasketFooter {
+  font-size: 1.2rem;
+}
 /* TEXT COLUMN */
 /* #textContainerExceptImage {
   flex: 1;
@@ -523,6 +594,3 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
-
-
-
