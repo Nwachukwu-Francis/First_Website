@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
   /* font-size: 1rem; */
 }
 body {
@@ -153,6 +153,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 0.5rem;
 }
 #navIcon p {
   font-size: 1.5rem;
@@ -181,7 +182,7 @@ body {
   color: rgba(0, 0, 0, 0.692);
   padding: 0.5rem;
 }
-#headerP p {
+#headerP {
   margin-top: 0;
 }
 #foodP {
@@ -199,7 +200,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
   margin-right: 0;
   padding-right: 0;
   /* display: flex; */
@@ -233,6 +234,7 @@ ul li {
   font-size: 1.1rem;
   margin-left: 1rem;
   padding: 0.3rem;
+  gap: 1rem;
   /* justify-content: center; */
   align-items: center;
 }
@@ -254,8 +256,11 @@ ul li {
 #howItWorks {
   text-align: center;
   background: rgba(5, 150, 104, 0.15);
-  margin-top: 1rem;
+  margin-top: 2.1rem;
   /* padding: 1.5rem; */
+}
+#howBasketWork{
+  margin: 1rem;
 }
 h2 {
   font-size: 35px;
@@ -322,7 +327,7 @@ h2 {
 #everythingYouNeed {
   background: rgba(255, 255, 255, 0.5);
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 #everythingYouNeed .browseLocalStores {
   border: 1px solid rgba(192, 192, 192, 0.4);
@@ -630,5 +635,6 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
 
