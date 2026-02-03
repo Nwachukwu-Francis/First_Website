@@ -235,7 +235,7 @@ ul li {
   align-items: center;
 }
 .fa-circle-check {
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 .startFirstOrder {
   margin: 1rem;
@@ -531,3 +531,4 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
