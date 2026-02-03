@@ -355,7 +355,7 @@ h2 {
 #everythingYouNeed .browseLocalStores ul {
   font-size: 1rem;
   padding-left: 0em;
-  margin-left: 2rem;
+  margin-left: 1rem;
   /* list-style: disc; */
 }
 #everythingYouNeed .browseLocalStores li {
@@ -478,7 +478,8 @@ h2 {
   }
   #headerP p {
     font-size: 1.5rem;
-    margin-left: 0rem;
+    margin-left: 1rem;
+    
   }
   #headerP {
   margin-top: 0;
@@ -511,7 +512,7 @@ h2 {
 
   #vegetableGarden img {
     width: 100vw;
-    height: 50vh;
+    height: 45vh;
     margin-right: 0;
     padding-right: 0;
     margin-top: 0;
@@ -641,6 +642,7 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
 
 
