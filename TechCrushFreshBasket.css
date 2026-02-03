@@ -353,9 +353,16 @@ h2 {
   font-size: 1rem;
   padding-left: 0em;
   margin-left: 2rem;
+  /* list-style: disc; */
 }
 #everythingYouNeed .browseLocalStores li {
-  padding-left: 0em;
+  list-style: disc;
+  /* padding-left: 0em; */
+}
+.browseLocalStores ul li::marker {
+  list-style: disc;
+  color: black;
+  font-size: 7rem;
 }
 #everythingYouNeed .browseLocalStoresWrapper {
   align-items: stretch;
@@ -466,6 +473,22 @@ h2 {
     font-size: 62.5%;
     /* background: red; */
   }
+  #headerP p {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+  }
+  #headerP {
+    margin-left: 0rem;
+    display: flex;
+    text-align: start;
+    padding-left: 0;
+  }
+  .textContainer {
+    margin-left: 1;
+  }
+  .textContainer ul li {
+    font-size: 1.3rem;
+  }
   #vegetableGarden {
     order: -1;
     width: 100%;
@@ -477,63 +500,75 @@ h2 {
     padding-top: 0;
     /* display: block; */
   }
-}
-#vegetableGarden img {
-  width: 100vw;
-  height: 50vh;
-  margin-right: 0;
-  padding-right: 0;
-  margin-top: 0;
-  padding-top: 0;
-}
-#freshBasketNav {
-  margin-bottom: 1px;
-}
-#flexTextAndImage {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.browseLocalStoresWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.browseLocalStores {
-  margin: 0.5rem;
-  width: 100%;
-}
-#browsingDelivery {
-  font-size: 1.5rem;
-}
-#everythingYouNeed h2 {
-  font-size: 2.2rem;
-  padding: 1.5rem 1.5rem 0.2rem 1.5rem;
-}
-.browseLocalStores h3,
-#everythingYouNeed #freshFruitH3 {
-  font-size: 1.7rem;
-}
-#everythingYouNeed .browseLocalStores {
-  margin-left: 0;
-  padding-left: 0;
-}
-#everythingYouNeed .browseLocalStores p {
-  font-size: 1.3rem;
-}
-#everythingYouNeed .browseLocalStores ul li {
-  font-size: 1.3rem;
-  margin-left: 0;
-  padding-left: 0;
-}
-#simplifyGrocery h2 {
-  font-size: 2.7rem;
-}
-#simplifyGrocery p {
-  font-size: 1.3rem;
-}
-#freshBasketFooter {
-  font-size: 1.2rem;
+
+  #vegetableGarden img {
+    width: 100vw;
+    height: 50vh;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #freshBasketNav {
+    margin-bottom: 1px;
+  }
+  #flexTextAndImage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .browseLocalStoresWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .browseLocalStores {
+    margin: 0.5rem;
+    width: 100%;
+  }
+  #browsingDelivery {
+    font-size: 1.5rem;
+  }
+  #everythingYouNeed h2 {
+    font-size: 2.3rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    padding: 1rem 0.3rem 0.2rem 0.3rem;
+  }
+  ul li {
+    display: flex;
+    font-size: 1rem;
+    margin-left: 1rem;
+    padding-left: 0.3rem;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 5px;
+  }
+  .browseLocalStores h3,
+  #everythingYouNeed #freshFruitH3 {
+    font-size: 1.7rem;
+  }
+  #everythingYouNeed .browseLocalStores {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #everythingYouNeed .browseLocalStores p {
+    font-size: 1.3rem;
+  }
+  #everythingYouNeed .browseLocalStores ul li {
+    font-size: 1.3rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #simplifyGrocery h2 {
+    font-size: 2.7rem;
+  }
+  #simplifyGrocery p {
+    font-size: 1.3rem;
+  }
+  #freshBasketFooter {
+    font-size: 1.2rem;
+  }
 }
 /* TEXT COLUMN */
 /* #textContainerExceptImage {
