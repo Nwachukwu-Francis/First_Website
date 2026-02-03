@@ -488,6 +488,7 @@ h2 {
   }
   .textContainer ul li {
     font-size: 1.3rem;
+    margin-left: 0;
   }
   #vegetableGarden {
     order: -1;
@@ -629,4 +630,5 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
