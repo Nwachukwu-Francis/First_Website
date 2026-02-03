@@ -427,7 +427,7 @@ h2 {
   flex: 1;
   /* height: 100%; */
   /* flex-grow: 1; */
-  /* width: 100%; */
+  width: 100%;
   /* height: auto; */
 }
 #vegetableGarden img {
@@ -441,7 +441,7 @@ h2 {
   object-fit: cover;
   display: block;
   width: 35rem;
-  height: 30rem;
+  height: 35rem;
 }
 #vegetableGarden {
   /* flex: 1; */
@@ -568,7 +568,7 @@ h2 {
     padding-left: 0;
   }
     #everythingYouNeed .browseLocalStores ul {
-      margin-left: 0;
+      margin-left: 1rem;
     padding-left: 0;
     }
   #simplifyGrocery h2 {
@@ -640,6 +640,7 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
 
 
