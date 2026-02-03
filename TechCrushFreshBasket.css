@@ -494,7 +494,7 @@ h2 {
   }
   .textContainer ul li {
     font-size: 1.3rem;
-    margin-left: 0;
+    margin-left: 1rem;
   }
   #vegetableGarden {
     order: -1;
@@ -567,6 +567,10 @@ h2 {
     margin-left: 0;
     padding-left: 0;
   }
+    #everythingYouNeed .browseLocalStores ul {
+      margin-left: 0;
+    padding-left: 0;
+    }
   #simplifyGrocery h2 {
     font-size: 2.7rem;
   }
@@ -636,6 +640,7 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
 
 
