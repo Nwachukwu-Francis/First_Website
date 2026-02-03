@@ -458,13 +458,8 @@ h2 {
 }
 @media screen and (max-width: 600px) {
   html {
-    font-size: 62.5%;
-    background: red;
+    font-size: 16px;
   }
-  #headerP::before {
-    content: 'Vegetables.Jpeg';
-  }
-}
 /* #flexTextAndImage {
   display: flex;
   /* align-items: stretch; same height columns */
@@ -528,5 +523,6 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
 
