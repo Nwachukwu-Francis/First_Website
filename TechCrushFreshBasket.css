@@ -182,7 +182,6 @@ body {
 }
 #headerP {
   margin-top: 0;
-  margin-left: 1rem;
 }
 #foodP {
   background: none;
@@ -483,6 +482,7 @@ h2 {
   }
   #headerP {
   margin-top: 0;
+    margin-left: 1rem;
 }
   #headerP {
     margin-left: 0rem;
@@ -641,6 +641,7 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
 
 
