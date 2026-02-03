@@ -434,7 +434,7 @@ h2 {
   /* height: fit-content; */
   margin-right: 1rem;
   padding-bottom: 1rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   object-fit: cover;
   display: block;
   width: 35rem;
@@ -484,7 +484,7 @@ h2 {
     padding-left: 0;
   }
   .textContainer {
-    margin-left: 1;
+    /* margin-left: 1; */
   }
   .textContainer ul li {
     font-size: 1.3rem;
@@ -629,3 +629,4 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
