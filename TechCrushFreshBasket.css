@@ -151,7 +151,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
 }
 #navIcon p {
   font-size: 1.5rem;
@@ -476,9 +476,12 @@ h2 {
     font-size: 62.5%;
     /* background: red; */
   }
+  navIcon{
+  margin-left: 0.2rem;
+  }
   #headerP p {
     font-size: 1.5rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     
   }
   #headerP {
@@ -642,6 +645,7 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
 
 
