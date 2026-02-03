@@ -1,6 +1,4 @@
 html {
-  /* font-size: 62.5%; */
-  /* font-size: 1rem; */
 }
 body {
   margin: 0;
@@ -442,7 +440,7 @@ h2 {
   border-radius: 1rem;
   object-fit: cover;
   display: block;
-  width: 35rem;
+  width: 50rem;
   height: 30rem;
 }
 #vegetableGarden {
@@ -482,6 +480,9 @@ h2 {
     font-size: 1.5rem;
     margin-left: 0rem;
   }
+  #headerP {
+  margin-top: 0;
+}
   #headerP {
     margin-left: 0rem;
     display: flex;
@@ -635,6 +636,7 @@ h2 {
   height: 100%;
   object-fit: cover; */
 }
+
 
 
 
